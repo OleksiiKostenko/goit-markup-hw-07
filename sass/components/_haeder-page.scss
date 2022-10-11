@@ -1,3 +1,12 @@
+.header {
+    border-bottom: 1px solid var(--border-color);
+
+
+&__conteiner {
+    display: flex;
+    align-items: center;
+}
+}
 .link-logo {
     font-family: 'Raleway';
     font-weight: 700;
@@ -9,26 +18,15 @@
     margin-right: 90px;
     transition: color 250ms var(--timing-function);
 }
-
-.page-header {
-    border-bottom: 1px solid var(--border-color);
-}
-
-.header-conteiner {
-    display: flex;
-    align-items: center;
-}
-
 .logo {
     color: var(--active-elements-color);
-}
 
-.link-logo:hover,
-.link-logo:focus {
+&:hover,
+&:focus {
     color: var(--active-elements-color);
 }
+}
 
-/* nav-link */
 .navi {
     display: flex;
     align-items: center;
@@ -37,21 +35,21 @@
 .site-nav {
     display: flex;
     padding: 0;
-}
 
-.site-nav .item {
+&__item {
     margin-right: 50px;
 }
 
-.site-nav .item:last-child {
+&__item:last-child {
     margin-right: 0;
 }
 
-.item {
+
+&__item {
     position: relative;
 }
 
-.link {
+&__link {
     color: var(--text-color-priority);
     font-weight: 500;
     line-height: 1.15;
@@ -60,26 +58,26 @@
     transition: color 250ms var(--timing-function);
 }
 
-.link:hover,
-.link:focus {
+&__link:hover,
+&__link:focus {
     color: var(--active-elements-color);
 }
-
-.contact .item {
-    margin-right: 50px;
-}
-
-.contact .item:last-child {
-    margin-right: 0;
 }
 
 .contact {
     display: flex;
     margin-left: auto;
     padding-left: 0;
+
+&__item {
+    margin-right: 50px;
 }
 
-.contact-nav {
+&__item:last-child {
+    margin-right: 0;
+}
+
+&__nav {
     color: var(--secondary-color-priority);
     fill: currentColor;
     font-weight: 500;
@@ -91,20 +89,21 @@
     transition: color 250ms var(--timing-function);
 }
 
-.contact-icon {
+&__icon {
     margin-right: 10px;
 }
 
-.contact-nav:hover,
-.contact-nav:focus {
+&__nav:hover,
+&__nav:focus {
     color: var(--active-elements-color);
+}
 }
 
 .current {
     color: var(--active-elements-color);
-}
 
-.current::before {
+
+&::before {
     content: '';
     display: block;
     width: 100%;
@@ -114,4 +113,4 @@
     bottom: -1px;
     background-color: var(--active-elements-color);
     border-radius: 2px;
-}
+}}

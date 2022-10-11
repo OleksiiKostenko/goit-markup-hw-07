@@ -18,30 +18,30 @@
     <link rel="stylesheet" href="./css/mian.min.css" />
   </head>
   <body>
-    <header class="page-header">
-      <div class="container header-conteiner">
+    <header class="header">
+      <div class="container header__conteiner">
         <nav class="navi">
           <a href="" class="link-logo" lang="en"><span class="logo">Web</span>Studio</a>
           <ul class="site-nav list">
-            <li class="item"><a class="link current" href="">Студія</a></li>
-            <li class="item"><a class="link" href="./portfolio.html">Портфоліо</a></li>
-            <li class="item"><a class="link" href="">Контакти</a></li>
+            <li class="site-nav__item"><a class="site-nav__link current" href="">Студія</a></li>
+            <li class="site-nav__item"><a class="site-nav__link" href="./portfolio.html">Портфоліо</a></li>
+            <li class="site-nav__item"><a class="site-nav__link" href="">Контакти</a></li>
           </ul>
         </nav>
         <ul class="contact list">
-          <li class="item">
+          <li class="contact__item">
             <a
-              class="contact-nav"
+              class="contact__nav"
               href="mailto:info@devstudio.com"
               rel="noopener noreferrer nofollow"
-              ><svg height="12px" width="16px" class="contact-icon">
+              ><svg height="12px" width="16px" class="contact__icon">
                 <use href="./css/img/icons.svg#icon-envelope"></use></svg
               >info@devstudio.com</a
             >
           </li>
-          <li class="item">
-            <a class="contact-nav" href="tel:+380961111111"
-              ><svg height="16px" width="10px" class="contact-icon">
+          <li class="contact__item">
+            <a class="contact__nav" href="tel:+380961111111"
+              ><svg height="16px" width="10px" class="contact__icon">
                 <use href="./css/img/icons.svg#icon-smartphone"></use></svg
               >+38 096 111 11 11</a
             >
@@ -108,56 +108,56 @@
         </div>
       </section>
       <!-- section what we do -->
-      <section class="section section-what">
+      <section class="section product">
         <div class="container">
-          <h2 class="section-title">Чим ми займаємося</h2>
-          <ul class="list img-list">
-            <li class="img-item">
+          <h2 class="section__title">Чим ми займаємося</h2>
+          <ul class="list product__list">
+            <li class="product__item">
               <img class="img" src="./image/box1.jpg" alt="" />
-              <div class="background">Десктопні додатки</div>
+              <div class="product__description"">Десктопні додатки</div>
             </li>
-            <li class="img-item">
+            <li class="product__item">
               <img class="img" src="./image/box2.jpg" alt="" />
-              <div class="background">Мобільні Додатки</div>
+              <div class="product__description">Мобільні Додатки</div>
             </li>
-            <li class="img-item">
+            <li class="product__item">
               <img class="img" src="./image/box3.jpg" alt="" />
-              <div class="background">Дизайнерські рішення</div>
+              <div class="product__description">Дизайнерські рішення</div>
             </li>
           </ul>
         </div>
       </section>
       <!-- team section -->
-      <section class="section team-section">
+      <section class="section team">
         <div class="container">
-          <h2 class="section-title">Наша команда</h2>
-          <ul class="list team-list list">
-            <li class="team-item">
+          <h2 class="section__title">Наша команда</h2>
+          <ul class="list team__list">
+            <li class="team__item">
               <img src="./image/img.jpg" alt="фото Ігора Дем'яненко" width="270" height="260" />
               <h3 class="photo-title">Ігор Дем'яненко</h3>
               <p lang="en" class="text-photo">Product Designer</p>
-              <div class="icon-wrapp">
-                <ul class="icon-list">
-                  <li class="social-list">
-                    <a href="https://www.instagram.com/" class="social-link"
+              <div class="employees">
+                <ul class="employees__list">
+                  <li class="social">
+                    <a href="https://www.instagram.com/" class="social__link"
                       ><svg class="button-icon">
                         <use href="./css/img/icons.svg#icon-instagram"></use></svg
                     ></a>
                   </li>
-                  <li class="social-list">
-                    <a href="https://twitter.com/" class="social-link"
+                  <li class="social">
+                    <a href="https://twitter.com/" class="social__link"
                       ><svg class="button-icon">
                         <use href="./css/img/icons.svg#icon-twitter"></use></svg
                     ></a>
                   </li>
-                  <li class="social-list">
-                    <a href="https://www.facebook.com/" class="social-link"
+                  <li class="social">
+                    <a href="https://www.facebook.com/" class="social__link"
                       ><svg class="button-icon">
                         <use href="./css/img/icons.svg#icon-facebook"></use></svg
                     ></a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/" class="social-link"
+                    <a href="https://www.linkedin.com/" class="social__link"
                       ><svg class="button-icon">
                         <use href="./css/img/icons.svg#icon-linkedin"></use></svg
                     ></a>
@@ -165,32 +165,32 @@
                 </ul>
               </div>
             </li>
-            <li class="team-item">
+            <li class="team__item">
               <img src="./image/img-1.jpg" alt="фото Ольги Рєпіної" width="270" height="260" />
               <h3 class="photo-title">Ольга Рєпіна</h3>
               <p lang="en" class="text-photo">Frontend Developer</p>
-              <div class="icon-wrapp">
-                <ul class="icon-list">
-                  <li class="social-list">
-                    <a href="https://www.instagram.com/" class="social-link"
+              <div class="employees">
+                <ul class="employees__list">
+                  <li class="social">
+                    <a href="https://www.instagram.com/" class="social__link"
                       ><svg class="button-icon">
                         <use href="./css/img/icons.svg#icon-instagram"></use></svg
                     ></a>
                   </li>
-                  <li class="social-list">
-                    <a href="https://twitter.com/" class="social-link"
+                  <li class="social">
+                    <a href="https://twitter.com/" class="social__link"
                       ><svg class="button-icon">
                         <use href="./css/img/icons.svg#icon-twitter"></use></svg
                     ></a>
                   </li>
-                  <li class="social-list">
-                    <a href="https://www.facebook.com/" class="social-link"
+                  <li class="social">
+                    <a href="https://www.facebook.com/" class="social__link"
                       ><svg class="button-icon">
                         <use href="./css/img/icons.svg#icon-facebook"></use></svg
                     ></a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/" class="social-link"
+                    <a href="https://www.linkedin.com/" class="social__link"
                       ><svg class="button-icon">
                         <use href="./css/img/icons.svg#icon-linkedin"></use></svg
                     ></a>
@@ -198,32 +198,32 @@
                 </ul>
               </div>
             </li>
-            <li class="team-item">
+            <li class="team__item">
               <img src="./image/img-2.jpg" alt="фото Миколи Тарасова" width="270" height="260" />
               <h3 class="photo-title">Микола Тарасов</h3>
               <p lang="en" class="text-photo">Marketing</p>
-              <div class="icon-wrapp">
-                <ul class="icon-list">
-                  <li class="social-list">
-                    <a href="https://www.instagram.com/" class="social-link"
+              <div class="employees">
+                <ul class="employees__list">
+                  <li class="social">
+                    <a href="https://www.instagram.com/" class="social__link"
                       ><svg class="button-icon">
                         <use href="./css/img/icons.svg#icon-instagram"></use></svg
                     ></a>
                   </li>
-                  <li class="social-list">
-                    <a href="https://twitter.com/" class="social-link"
+                  <li class="social">
+                    <a href="https://twitter.com/" class="social__link"
                       ><svg class="button-icon">
                         <use href="./css/img/icons.svg#icon-twitter"></use></svg
                     ></a>
                   </li>
-                  <li class="social-list">
-                    <a href="https://www.facebook.com/" class="social-link"
+                  <li class="social">
+                    <a href="https://www.facebook.com/" class="social__link"
                       ><svg class="button-icon">
                         <use href="./css/img/icons.svg#icon-facebook"></use></svg
                     ></a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/" class="social-link"
+                    <a href="https://www.linkedin.com/" class="social__link"
                       ><svg class="button-icon">
                         <use href="./css/img/icons.svg#icon-linkedin"></use></svg
                     ></a>
@@ -231,32 +231,32 @@
                 </ul>
               </div>
             </li>
-            <li class="team-item">
+            <li class="team__item">
               <img src="./image/img-3.jpg" alt="фото Михайла Єрмакова" width="270" height="260" />
               <h3 class="photo-title">Михайло Єрмаков</h3>
               <p lang="en" class="text-photo">UI Designer</p>
-              <div class="icon-wrapp">
-                <ul class="icon-list">
-                  <li class="social-list">
-                    <a href="https://www.instagram.com/" class="social-link"
+              <div class="employees">
+                <ul class="employees__list">
+                  <li class="social">
+                    <a href="https://www.instagram.com/" class="social__link"
                       ><svg class="button-icon">
                         <use href="./css/img/icons.svg#icon-instagram"></use></svg
                     ></a>
                   </li>
-                  <li class="social-list">
-                    <a href="https://twitter.com/" class="social-link"
+                  <li class="social">
+                    <a href="https://twitter.com/" class="social__link"
                       ><svg class="button-icon">
                         <use href="./css/img/icons.svg#icon-twitter"></use></svg
                     ></a>
                   </li>
-                  <li class="social-list">
-                    <a href="https://www.facebook.com/" class="social-link"
+                  <li class="social">
+                    <a href="https://www.facebook.com/" class="social__link"
                       ><svg class="button-icon">
                         <use href="./css/img/icons.svg#icon-facebook"></use></svg
                     ></a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/" class="social-link"
+                    <a href="https://www.linkedin.com/" class="social__link"
                       ><svg class="button-icon">
                         <use href="./css/img/icons.svg#icon-linkedin"></use></svg
                     ></a>
@@ -270,7 +270,7 @@
       <!-- client section -->
       <section class="section">
         <div class="container">
-          <h2 class="section-title">Постійні клієнти</h2>
+          <h2 class="section__title">Постійні клієнти</h2>
           <ul class="client-item list">
             <li class="client-list">
               <a href="" class="client-link"

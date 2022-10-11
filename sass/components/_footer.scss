@@ -16,11 +16,12 @@
     color: var(--secondary-text-color);
     margin-bottom: 20px;
     transition: color 250ms var(--timing-function);
-}
 
-.footer-logo:hover,
-.footer-logo:focus {
+
+&:hover,
+&:focus {
     color: var(--active-elements-color);
+}
 }
 
 .address-link {
@@ -67,13 +68,13 @@
     fill: currentColor;
     background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
     transition: color 250ms var(--timing-function), background-color 250ms var(--timing-function);
-}
 
-.footer-link:hover,
-.footer-link:focus {
+
+&:hover,
+&:focus {
     background-color: var(--active-elements-color);
 }
-
+}
 .footer-social {
     margin-right: 10px;
 }
@@ -130,11 +131,12 @@
     border: 0;
     padding: 10px 0px;
     transition: color 250ms var(--timing-function), background-color 250ms var(--timing-function);
-}
 
-.subscribe-btn:hover,
-.subscribe-btn:focus {
+
+&:hover,
+&:focus {
     background-color: var(--background-btn-color);
+}
 }
 
 .send-email {
